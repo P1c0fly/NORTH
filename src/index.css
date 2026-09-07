@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Coastal Sand & Dune Palette (لون تراب الساحل) */
+    --color-sand: #FAF8F5;
+    --color-sand-dark: #F2ECE1;
+    --color-sand-coastal: #C29B63;
+    --color-sand-coastal-hover: #AC8449;
+    --color-sand-coastal-light: #F7EFE4;
+
+    /* Red Sea Marine Palette (لون بحر البحر الأحمر) */
+    --color-ocean: #0C3552;
+    --color-ocean-deep: #051C2C;
+    --color-ocean-medium: #114A6F;
+    --color-ocean-azure: #1B6594;
+
+    /* Coral Reef & Lagoon Accents (شِعاب البحر الأحمر واللاجون) */
+    --color-lagoon: #028090;
+    --color-lagoon-light: #E2F4F7;
+    --color-reef-emerald: #00A896;
+  }
+
+  html {
+    font-family: 'IBM Plex Sans Arabic', 'Tajawal', 'Cairo', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-sand);
+    color: var(--color-ocean);
+    direction: rtl;
+    text-align: right;
+  }
+}
+
+/* Custom Scrollbars with coastal tones */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F2ECE1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0C355240;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0C355270;
+}
+
+

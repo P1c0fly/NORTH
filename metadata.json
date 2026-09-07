@@ -1,0 +1,6 @@
+{
+  "name": "أبحر الشمالية | Northabhor News & Hub",
+  "description": "المنصة الإخبارية والرقمية الرائدة لأبحر الشمالية بجدة - أخبار وتطوير الحي، دليل المدارس، مؤشرات الخدمات والمشاريع، وتحليلات البيانات التفاعلية @Northabhor",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
